@@ -1,12 +1,9 @@
 # Portfolio Selection Strategy
-The goal is to compare computational investment strategies, while taking effect of trading cost in consideration. The goal of the optimization effort is to create a tool that allows the user to make regular decisions about re-balancing their portfolio and compare different investment strategies.
-
-
 The goal of optimization effort is to create a tool that allows the user to make regular decisions
 about re-balancing their portfolio and compare different investment strategies. The user wants to
 consider the total return, the risk and Sharpe ratio. They may want to minimize/maximize any of
 these components, while limiting one or more of the other components. The basic building block is
-a decision made at the firrst trading day of each 2-month holding period: given a current portfolio,
+a decision made at the first trading day of each 2-month holding period: given a current portfolio,
 the market prices on that day, and the estimates of the mean and covariance of the daily returns,
 make a decision about what to buy and sell according to a strategy. Tested four strategies:
 
